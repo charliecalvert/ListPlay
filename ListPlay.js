@@ -13,6 +13,7 @@ var MyObject = (function() {
 		$("#myList").empty();
 	}
 	
+	// Add items to the list.
 	MyObject.prototype.addItems = function() {
 		for (var i = 0; i < 10; i++) {
 			$("#myList").append("<li>New Item0" + i +"</li>");
