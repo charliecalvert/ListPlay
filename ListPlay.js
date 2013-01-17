@@ -14,10 +14,9 @@ var MyObject = (function() {
 	}
 	
 	MyObject.prototype.addItems = function() {
-		$("#myList").append("<li>New Item01</li>");
-		$("#myList").append("<li>New Item02</li>");
-		$("#myList").append("<li>New Item03</li>");
-		$("#myList").append("<li>New Item04</li>");
+		for (var i = 0; i < 10; i++) {
+			$("#myList").append("<li>New Item0" + i +"</li>");
+		}
 	}
 	
 	return MyObject;
