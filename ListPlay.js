@@ -17,6 +17,7 @@ var MyObject = (function() {
 		$("#myList").append("<li>New Item01</li>");
 		$("#myList").append("<li>New Item02</li>");
 		$("#myList").append("<li>New Item03</li>");
+		$("#myList").append("<li>New Item04</li>");
 	}
 	
 	return MyObject;
