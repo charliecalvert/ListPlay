@@ -9,6 +9,7 @@ var MyObject = (function() {
 		
 	}
 	
+	// Clear the list
 	MyObject.prototype.clear = function() {
 		$("#myList").empty();
 	}
