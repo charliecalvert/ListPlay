@@ -5,6 +5,7 @@
 var MyObject = (function() {
 	'use strict';
 	
+	// constructor
 	function MyObject() {
 		
 	}
