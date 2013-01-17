@@ -27,6 +27,7 @@ var MyObject = (function() {
 
 $(document).ready(function() {
 	var myObject = new MyObject();
+	// Set up the buttons
 	$("#buttonClear").click(myObject.clear);
 	$("#buttonAdd").click(myObject.addItems);
 });
